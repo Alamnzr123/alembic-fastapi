@@ -2,6 +2,8 @@
 
 This is simple init how to create data using Alembic ORM with FastAPI 
 
+![screenshot](ss.png)
+
 ## Set Up Project
 
 1. clone repo ``

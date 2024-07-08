@@ -96,10 +96,16 @@ alembic revision --autogenerate -m "First migration"
 alembic upgrade head
 ```
 
-10. Open PGAdmin4 and find your DB
-11. Open `http://127.0.0.1:8000/docs` to CREATE data
+10. Run SERVER/APP :
+
+```
+uvicorn main:app
+```
+
+11. Open PGAdmin4 and find your DB
+12. Open `http://127.0.0.1:8000/docs` FASTAPI SERVER to CREATE data
 or using POSTMAN
-12. DONE.
+13. DONE.
 
 * IGNORE THE `Pipfile` using pip package manager
 

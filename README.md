@@ -1,12 +1,16 @@
-# EXAMPLE CREATE DATA USING ALEMBIC-PYTHON
+# PART 1 - Alembic-FastAPI
 
-This is simple init how to create data using Alembic ORM with FastAPI 
+# PART 2 - Alembic-FastAPI `https://github.com/Alamnzr123/alembic-fastapi-part2`
+
+This is simple init how to create data using Alembic ORM with FastAPI.
+I separate 2 part which Part 1 : Init project and simple setup
+Part 2 : More structure files and use Best Practice. 
 
 ![screenshot](ss.png)
 
 ## Set Up Project
 
-1. clone repo ``
+1. clone repo `https://github.com/Alamnzr123/alembic-fastapi`
 2. Install package: 
 ```
 pip install fastapi fastapi-sqlalchemy pydantic alembic psycopg2 uvicorn
